@@ -325,8 +325,8 @@ html {
     margin-bottom: 40px;
 }
 #contact h3 {
-  color: #fff;
-  margin-bottom: 40px;
+      color: lightgray;
+      margin-bottom: 40px;
 }
 .wrapper {
     display: inline-flex;
