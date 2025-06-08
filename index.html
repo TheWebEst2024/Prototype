@@ -89,6 +89,7 @@
     </section>
     <section id="contact">
         <h2>Contact</h2> 
+        <h3>Currently, we only have an Instagram so the other social media buttons below won't take you anywhere. However, we're working on building ourselves up with your support so soon all these platforms will be up and running!</h3>
         <ul class="wrapper">
             <li class="icon facebook">
             <span class="tooltip">Facebook</span>
@@ -162,20 +163,43 @@
         
     </section>
     <section id="footer">
-        <p><b>Email :</b></p>
+        <p><b>Email :</b> mphojoebothloko@gmail.com</p>
         <p><b>Phone :</b> +27 66 239 7912</p>
-        <p><b>Address :</b></p>
-        <h3>This website was designed and developed by The Web. Click the logo below to find the perfect online presense for your business :</h3>
+        <p><b>Address :</b> In our listeners' hearts</p>
+        <h3>This website was designed and developed by The Web. Click the logo below to find the perfect online presensce for your business :</h3>
         <a href="https://www.thewebdevelops.com/" target="_blank"><img src="img/logo.png" class="logo" alt=""></a>
         <h4>Or email us on : thespiderwebberz@gmail.com</h4>
     </section>
 
     <script>
         document.getElementById("heroButton").addEventListener("click", function () {
-            window.location.href = "mailto:amirpatel0806@gmail.com?subject=%5BCompany%20Name%5D%20confirming%20an%20interview%20with%20you";
+            const subject = `[Your Name] would like to make a booking for a ticket/reservation`;
+            const body = `Hi,
+
+            I would like to book a ticket for your event. Please let me know the next steps.
+
+            Regards,
+            [Your Name]`;
+
+            window.location.href = `mailto:mphojoebothloko@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
         });
         document.getElementById("bookButton").addEventListener("click", function () {
-            window.location.href = "mailto:amirpatel0806@gmail.com?subject=%5BCompany%20Name%5D%20confirming%20an%20interview%20with%20you";
+            const subject = `[Your Name] would like to make a booking for a ticket/reservation`;
+            const body = `Hi,
+
+            I would like to book a ticket for your event. Please let me know the next steps.
+
+            Regards,
+            [Your Name]`;
+
+            window.location.href = `mailto:mphojoebothloko@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const instagramIcon = document.querySelector(".icon.instagram");
+            instagramIcon.addEventListener("click", function () {
+            window.open("https://www.instagram.com/houseprotocol.cpt", "_blank");
+            });
         });
     </script>
 </body>
