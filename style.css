@@ -317,11 +317,16 @@ html {
     text-align: center;
     align-content: center;
     padding: 60px 40px;
+    padding-top: 120px;
 }
 
 #contact h2 {
     color: #639ed5;
     margin-bottom: 40px;
+}
+#contact h3 {
+  color: lightgray;
+  margin-bottom: 40px;
 }
 .wrapper {
     display: inline-flex;
