@@ -328,6 +328,10 @@ html {
       color: lightgray;
       margin-bottom: 40px;
 }
+#colNotWork {
+    color: lightgray;
+    margin-bottom: 40px;
+}
 .wrapper {
     display: inline-flex;
     list-style: none;
